@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Page Demo — GitHub Pages 演示</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="A simple GitHub Pages demo site." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Page Demo</h1>
+      <nav class="nav">
+        <a href="#features">功能</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button id="theme-toggle" class="btn small">切换主题</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>快速部署你的静态站点</h2>
+        <p>这是一个简单的 GitHub Pages 演示页面。将本目录放入仓库的 <code>docs/</code>，然后启用 Pages 即可访问本站点。</p>
+        <div class="hero-actions">
+          <a class="btn" href="#features">查看功能</a>
+          <button id="demo-alert" class="btn outline">点我试试</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container features">
+      <article class="card">
+        <h3>部署简单</h3>
+        <p>将文件放到 <code>docs/</code>，在仓库 Settings → Pages 中选择 main /docs 分支即可。</p>
+      </article>
+
+      <article class="card">
+        <h3>响应式设计</h3>
+        <p>页面在手机/平板/桌面都能友好显示。</p>
+      </article>
+
+      <article class="card">
+        <h3>主题切换</h3>
+        <p>右上角按钮可切换亮/暗主题，示例使用 localStorage 保持用户偏好。</p>
+      </article>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>关于这个 demo</h3>
+      <p>这是一个纯静态示例，没有后端依赖。你可以在此基础上替换内容、添加页面或引入静态站点生成器（Jekyll、Hugo 等）。</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>联系</h3>
+      <p>如果你需要，我可以为你：创建分支并发起 PR、添加 CI 自动部署，或将示例扩展为多页站点。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2026 Page Demo — 部署在 GitHub Pages</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
